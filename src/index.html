@@ -2,16 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Iron Yard Front End Boilerplate</title>
+    <title>The Woodshed</title>
+    <link rel="stylesheet" href="scss/main.scss" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/main.css" media="screen" charset="utf-8">
+
   </head>
-  <body>
 
-    <h1>Iron Yard Front End Boilerplate</h1>
+  <body>
+    <header>
+      <h1>The Woodshed</h1>
+      <div id="login"><a href="#">Login</a></div>
+      <div id="register"><a href="#">Sign Up Here!</a></div>
+
+
+    </header>
+
+  <!-- this is an exercise on creating modal windows, to
+        /// be used in this project later -->
+
+
+
+
+    <main>
+      <div class="app"></div>
+
+
+      <div class="workArea">
+
+      </div>
+
+    </main>
+
+    <aside class="sessions">
+      <div id="addSession"><h2><a href="#"><i class="fa fa-plus"></i> Add Session</a></h2>
+
+      </div>
+
+    </aside>
+    <footer></footer>
+
     <!-- Third Party Libraries -->
 
     <!-- App Specific Files-->
     <script src="js/bundle.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="ds1pekxqdz82ocx"></script>
   </body>
 </html>
